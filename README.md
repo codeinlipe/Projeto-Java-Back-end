@@ -1,2 +1,27 @@
-# Projeto-Java-Back-end
-A API Rest da Ladidas Store foi desenvolvida para gerenciar uma loja fictícia de tenis esporti-vos. O sistema permite o controle de clientes, produtos e pedidos, utilizando Java com Spring Boot, banco de dados MySQL e foi utilizado o Postman para os testes. 
+# 🛒 Projeto API - Loja Ladidas Store
+
+Este projeto é uma API REST desenvolvida em Java com Spring Boot, utilizando JPA e MySQL para gerenciamento de dados. A aplicação simula um sistema de loja, com cadastro de clientes, produtos e pedidos.
+
+---
+
+## 🚀 Tecnologias utilizadas
+
+- Java
+- Spring Boot
+- Spring Data JPA
+- MySQL
+- Maven
+- Postman (para testes de API)
+
+---
+
+## 📁 Estrutura do projeto
+
+O projeto segue uma arquitetura em camadas:
+
+- **model** → Entidades do sistema (Cliente, Produto, Pedido)
+- **repository** → Interface de acesso ao banco de dados
+- **service** → Regras de negócio
+- **controller** → Endpoints da API
+
+---
